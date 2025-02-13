@@ -37,3 +37,10 @@ ul li a {
 ul li:hover {
   background: #005bb5;
 }
+
+ol li {
+  list-style-type: none;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
