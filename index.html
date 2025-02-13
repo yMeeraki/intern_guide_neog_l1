@@ -1,23 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intern Guide - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background: #0073e6;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        ul li:hover {
+            background: #005bb5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Intern Guide - Welcome
+    </header>
+    <div class="container">
+        <h2>Welcome to the Intern Guide</h2>
+        <p>This platform will help new interns understand their responsibilities, workflows, and processes.</p>
+        
+        <h3>Quick Links</h3>
+        <ul>
+            <li><a href="responsibilities.html">Intern Responsibilities</a></li>
+            <li><a href="submission-review.html">Submission Review Process</a></li>
+            <li><a href="mentorship.html">Mentorship & Student Tracking</a></li>
+            <li><a href="mcr-scheduling.html">MCR Scheduling & Preparation</a></li>
+            <li><a href="communication.html">Communication & Reporting</a></li>
+            <li><a href="faq.html">Troubleshooting & FAQs</a></li>
+        </ul>
+        <p>Need Help? Check the FAQ section or contact your mentor.</p>
+    </div>
+</body>
 </html>
